@@ -1,0 +1,13 @@
+//Algoritmo mayor edad 
+const EDAD_ADULTO = 18; 
+let persona = 30; 
+
+//Revisar si la persona es mayor de edad 
+if (persona >= EDAD_ADULTO){
+    console.log(`La persona con la edad ${persona}
+    es una person adulta`); 
+}
+
+else{
+    console.log(`La persona con la edad ${persona} es menor`)
+}
