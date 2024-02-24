@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Manejo DOM con JavaScript</title>
+</head>
+<body>
+    <h1 id = 'titulo'>Manejo DOM con JavaScript</h1>
+    <br/>
+    Nombre: <input type="text" onfocus="cambiarFondo(this)" onblur="regresa(this)"/>
+    <script>    
+      function cambiarFondo(elementoInput){
+        elementoInput.style.background = 'yellow';
+      }
+
+      function regresa(elementoInput){
+        elementoInput.style.background = 'white';
+      }
+
+       
+    </script>
+
+
+</body>
+</html>
